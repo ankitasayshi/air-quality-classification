@@ -1,0 +1,267 @@
+1.Air Quality Classification
+
+2.Project Overview
+
+This project focuses on classifying air quality using machine learning techniques.
+
+3.Problem Statement:
+Air Quality Classification Using Environmental and Pollution Indicators using logistic regression
+
+
+4.Dataset Description
+The project uses the Air Quality and Pollution Assessment dataset published by Mujtaba Matin on Kaggle.
+Dataset Source: Kaggle – Air Quality and Pollution Assessment
+The dataset contains environmental and pollution-related parameters that can be used to analyse and classify air quality.
+source: 
+https://www.kaggle.com/datasets/mujtabamatin/air-quality-and-pollution-assessment
+
+Features    description
+Temperature: Atmospheric temperature
+Humidity:    Relative humidity
+PM2.5:       Concentration of fine particulate matter
+                PM10
+Concentration 
+of particulate
+matter NO2:           Nitrogen dioxide concentration
+SO2
+Sulphur dioxide
+concentration CO:               Carbon monoxide concentration
+Proximity_to_Industrial_Areas: Proximity to industrial areas
+Population_Density:            Population density
+Air Quality:      Target classification variable
+
+
+Target Variable:
+The target variable is Air Quality, which represents the air quality category.
+The listed classification categories are:
+Good
+Moderate
+Poor
+Hazardous
+Dataset Characteristics
+Format: CSV
+Expected observations: Approximately 5,000
+Expected columns: 10
+Problem type: Multiclass Classification
+Target variable: Air Quality
+The dataset will be explored to understand feature distributions, identify missing values, 
+analyse relationships between variables and prepare the data for machine learning.
+
+5.Methodology
+
+The dataset is loaded from the CSV file using the Pandas library.
+
+Initial inspection is performed to understand:
+
+- Number of rows and columns.
+- Feature names and data types.
+- Missing values and duplicate records.
+- Distribution of target classes.
+
+5.2 Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis is performed to understand the characteristics and patterns present in the dataset.
+
+The analysis includes:
+
+- Statistical summary of numerical features.
+- Distribution of pollution-related parameters.
+- Correlation analysis between numerical features.
+- Visualisation of air quality class distribution.
+- Identification of possible outliers.
+
+Libraries such as Matplotlib and Seaborn are used for data visualisation.
+
+5.3 Data Preprocessing
+
+The dataset is prepared before applying Machine Learning algorithms.
+
+The preprocessing stage may include:
+
+- Missing Value Handling: Identifying and handling missing observations.
+- Duplicate Removal: Checking for repeated records.
+- Categorical Encoding: Converting categorical variables into numerical representations wherever required.
+- Feature Scaling: Applying normalization or standardization when appropriate.
+- Feature Selection: Identifying relevant features that contribute to air quality classification.
+
+All preprocessing decisions will be based on the actual dataset.
+
+5.4 Feature Selection and Target Separation
+
+The input features are separated from the target variable.
+
+- Input (X): Environmental and pollution-related parameters.
+- Output (y): Air Quality.
+
+The target variable represents the category that the model is expected to predict.
+
+5.5 Train-Test Split
+
+The dataset is divided into two subsets:
+
+- Training Set: Used to train the Machine Learning model.
+- Testing Set: Used to evaluate the model on unseen data.
+
+The train-test split helps assess the model's ability to generalize to new observations.
+
+5.6 Model Training
+
+The selected Machine Learning classification algorithm is trained using the prepared training dataset.
+
+The model learns patterns and relationships between environmental parameters and their corresponding air quality categories.
+
+Selected Algorithm: To be updated after the final model is confirmed.
+
+5.7 Model Evaluation
+
+The trained model is evaluated using appropriate classification metrics:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+These metrics help assess the model's classification performance and identify the types of prediction errors it makes.
+
+
+6.Team Members
+
+2026EEB1322 ANKITA SAINI DOCUMMENTATION LEAD
+2026AIB1095 VENNA DIVIJA PPT lead
+2026EEB1393 PRANJAL EXECUTIVE LEAD
+2026MCB1569 SHIVANSH VAISH VIDEO LEAD
+
+
+7.Project Structure
+The GitHub repository is organized to keep the project files accessible and easy to understand.
+
+air-quality-classification/
+│
+├── README.md
+│
+├── dataset.csv
+│
+├── main.ipynb
+│
+├── requirements.txt
+│
+├── presentation.pdf
+│
+└── video_link.txt
+
+Description of Files
+
+File| Purpose
+README.md| Project overview, methodology and execution instructions
+dataset.csv| Dataset used for model development
+main.ipynb| Jupyter Notebook containing the complete ML workflow
+requirements.txt| List of required Python libraries
+presentation.pdf| Five-slide project presentation
+video_link.txt| Link to the project demonstration video
+
+The repository is maintained on GitHub and made publicly accessible for evaluation.
+
+
+
+Installation and Requirements
+Prerequisites
+
+The following software and tools are required to execute the project:
+
+- Python 3.x
+- Jupyter Notebook
+- pip (Python package installer)
+- Git (for cloning the repository)
+
+Required Python Libraries
+
+The project uses Python libraries for data manipulation, visualization and Machine Learning.
+
+Library| Purpose
+NumPy| Numerical computations
+Pandas| Data loading and manipulation
+Matplotlib| Data visualization
+Seaborn| Statistical visualization
+Scikit-learn| Data preprocessing, model training and evaluation
+
+Installation Steps
+
+Step 1: Clone the GitHub repository
+
+git clone YOUR_GITHUB_REPOSITORY_URL
+
+Step 2: Navigate to the project directory
+
+cd air-quality-classification
+
+Step 3: Install the required dependencies
+
+pip install -r requirements.txt
+
+Step 4: Launch Jupyter Notebook
+
+jupyter notebook
+
+The project notebook can then be opened in the browser.
+
+
+
+How to Run
+Follow these steps to execute the Air Quality Classification project:
+
+1. Download or clone the public GitHub repository.
+2. Ensure that Python and the required dependencies are installed.
+3. Install all dependencies using the "requirements.txt" file.
+4. Ensure that the dataset CSV file is present in the correct project directory.
+5. Launch Jupyter Notebook.
+6. Open "main.ipynb".
+7. Execute the notebook cells sequentially, starting from the first cell.
+8. Observe the data preprocessing steps, model training process and evaluation results.
+
+Execution Command
+
+jupyter notebook main.ipynb
+
+Alternatively, the notebook can be opened through Jupyter's browser interface.
+
+Expected Output
+
+After successful execution, the notebook should display:
+
+- Dataset overview and exploratory analysis.
+- Data preprocessing results.
+- Training and testing dataset information.
+- Trained classification model.
+- Model evaluation metrics.
+- Confusion matrix and relevant visualizations.
+
+The final output will demonstrate the model's ability to classify air quality into the categories represented in the dataset.
+
+
+
+
+Results and Evaluation
+The trained model will be evaluated using suitable classification metrics.
+
+The final results will include:
+
+- Accuracy score.
+- Precision score.
+- Recall score.
+- F1-score.
+- Confusion matrix.
+- Relevant training and evaluation plots.
+
+The results will be interpreted to understand the model's performance and its effectiveness in classifying air quality.
+
+Final numerical results and interpretation will be added after model training and testing.
+
+
+Presentation and Video
+
+To be added.
+
+AI Usage Disclosure
+
+To be added.
