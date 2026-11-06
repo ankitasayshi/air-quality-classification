@@ -154,18 +154,18 @@ Description of Files
 
 File| Purpose
 README.md| Project overview, methodology and execution instructions
-dataset.csv| Dataset used for model development
+updated_pollution_dataset[1].csv| Dataset used for model development
 main.ipynb| Jupyter Notebook containing the complete ML workflow
 requirements.txt| List of required Python libraries
 presentation.pdf| Five-slide project presentation
 video_link.txt| Link to the project demonstration video
 
-The repository is maintained on GitHub and made publicly accessible for evaluation.
-
+-The repository is maintained on GitHub and made publicly accessible for evaluation
+BY DOCUMMENTATION LEAD, 2026EEB1322
 
 
 Installation and Requirements
-Prerequisites
+Prerequisites:
 
 The following software and tools are required to execute the project:
 
