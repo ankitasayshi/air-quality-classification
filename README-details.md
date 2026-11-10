@@ -255,13 +255,69 @@ The final results will include:
 
 The results will be interpreted to understand the model's performance and its effectiveness in classifying air quality.
 
-Final numerical results and interpretation will be added after model training and testing.
+#Results and Evaluation:
+
+Model Performance:
+
+Two machine learning classification models were implemented and evaluated:
+
+1. Logistic Regression
+2. Random Forest Classifier
+
+The models were evaluated on a testing dataset containing 1,000 samples.
+
+Evaluation Metric| Logistic Regression| Random Forest
+Accuracy| 93%| 95.1%
+Weighted Precision| 0.93| 0.95
+Weighted Recall| 0.93| 0.95
+Weighted F1-Score| 0.93| 0.95
+
+Classification Performance
+
+The models classify air quality into four categories:
+
+- Good
+- Moderate
+- Poor
+- Hazardous
+
+Random Forest Classification Report:
+
+Air Quality Class| Precision| Recall| F1-Score
+Good| 1.00| 1.00| 1.00
+Hazardous| 0.90| 0.80| 0.85
+Moderate| 0.96| 0.97| 0.97
+Poor| 0.87| 0.90| 0.88
+
+Evaluation and Observations
+
+- Random Forest achieved the highest accuracy of approximately 95.1%, outperforming Logistic Regression.
+- Random Forest performed particularly well in classifying Good and Moderate air quality.
+- Hazardous air quality had a comparatively lower recall of 0.80, indicating that some hazardous samples were incorrectly classified.
+- Logistic Regression achieved approximately 93% accuracy, demonstrating good classification performance.
+- Overall, Random Forest was selected as the best-performing model among the two evaluated models.
+
+Conclusion
+
+The experimental results demonstrate that machine learning techniques can effectively classify air quality into different categories. Random Forest provided better overall performance than Logistic Regression on the testing dataset and was selected as the final model.
 
 
-Presentation and Video
+Presentation and Video:
 
 To be added.
 
-AI Usage Disclosure
+AI Usage Disclosure:
+AI tools were used as supportive resources during the development and documentation of this project.
 
-To be added.
+The use of AI was limited to the following activities:
+
+- Concept Clarification: Understanding machine learning concepts, classification techniques, and model evaluation metrics.
+- Documentation Assistance: Improving the structure, readability, and presentation of the README file.
+- Code Understanding: Assisting in understanding Python libraries, code functionality, and machine learning workflows.
+- Debugging Support: Helping identify and resolve coding errors during development.
+
+The dataset selection, project implementation, model training, testing, evaluation, and final verification were carried out by the project team.
+
+AI-generated suggestions were reviewed and adapted by the team to ensure their correctness and relevance.
+
+AI tools were used to support learning and development, not to replace the team's understanding or contribution.
