@@ -139,9 +139,9 @@ air-quality-classification/
 │
 ├── requirements.txt
 │
-├── presentation.pdf
+├── AI101 Project.pdf
 │
-└── video_link.txt
+└── https://youtu.be/9xfnOE5Z7kc
 ```
 
 ### Description of Files
