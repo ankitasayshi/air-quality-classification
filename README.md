@@ -104,7 +104,6 @@ The selected Machine Learning classification algorithm is trained using the prep
 
 The model learns patterns and relationships between environmental parameters and their corresponding air quality categories.
 
-*Selected Algorithm:* To be updated after the final model is confirmed.
 
 ### 5.7 Model Evaluation
 
@@ -287,12 +286,32 @@ The models classify air quality into four categories:
 - Logistic Regression achieved approximately 93% accuracy, demonstrating good classification performance.
 - Overall, Random Forest was selected as the best-performing model among the two evaluated models.
 
+### Project Presentation and Demonstration
+Project Presentation: AI101 Project.pdf
+Project Demonstration Video: 
+The demonstration video presents the project objectives, dataset, methodology, implementation, code demonstration and individual team contributions.
+
 ### Conclusion
 The experimental results demonstrate that machine learning techniques can effectively classify air quality into different categories. Random Forest provided better overall performance than Logistic Regression on the testing dataset and was selected as the final model.
 
+### Applications
+The concepts demonstrated in this project have potential applications in:
+Environmental monitoring and pollution assessment.
+Air quality analysis and reporting.
+Environmental data-driven decision-making.
+Identifying patterns in pollution-related parameters.
+Supporting research in smart environmental monitoring systems.
+This project is an educational machine learning implementation and is not a substitute for certified air quality monitoring equipment.
 
-## Presentation and Video:
-To be added.
+###  Future Scope
+The project can be further improved through:
+-Experimenting with additional classification algorithms.
+-Hyperparameter tuning for improved model performance.
+-Using larger and more diverse air quality datasets.
+-Developing a user-friendly interface for predictions.
+-Integrating real-time air quality data.
+-Exploring deployment as a web-based prediction application.
+
 
 ## AI Usage Disclosure:
 AI tools were used as supportive resources during the development and documentation of this project.
@@ -308,3 +327,4 @@ The dataset selection, project implementation, model training, testing, evaluati
 AI-generated suggestions were reviewed and adapted by the team to ensure their correctness and relevance.
 
 AI tools were used to support learning and development, not to replace the team's understanding or contribution.
+. THE TEXT IS AUTHORED BY DOCUMMENTATION LEAD, 2026EEB1322
