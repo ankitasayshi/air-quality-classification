@@ -288,7 +288,7 @@ The models classify air quality into four categories:
 
 ### Project Presentation and Demonstration
 Project Presentation: AI101 Project.pdf
-Project Demonstration Video: 
+Project Demonstration Video:  https://youtu.be/9xfnOE5Z7kc
 The demonstration video presents the project objectives, dataset, methodology, implementation, code demonstration and individual team contributions.
 
 ### Conclusion
@@ -327,4 +327,5 @@ The dataset selection, project implementation, model training, testing, evaluati
 AI-generated suggestions were reviewed and adapted by the team to ensure their correctness and relevance.
 
 AI tools were used to support learning and development, not to replace the team's understanding or contribution.
-. THE TEXT IS AUTHORED BY DOCUMMENTATION LEAD, 2026EEB1322
+. 
+THE TEXT IS AUTHORED BY DOCUMMENTATION LEAD, 2026EEB1322
