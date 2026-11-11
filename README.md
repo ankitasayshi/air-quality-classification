@@ -152,8 +152,8 @@ air-quality-classification/
 | `updated_pollution_dataset[1].csv` | Dataset used for model development |
 | `main.ipynb` | Jupyter Notebook containing the complete ML workflow |
 | `requirements.txt` | List of required Python libraries |
-| `presentation.pdf` | Five-slide project presentation |
-| `video_link.txt` | Link to the project demonstration video |
+| ` AI101 Project.pdf` | Five-slide project presentation |
+| `https://youtu.be/9xfnOE5Z7kc` | Link to the project demonstration video |
 
 -The repository is maintained on GitHub and made publicly accessible for evaluation  
 **BY DOCUMMENTATION LEAD, 2026EEB1322**
