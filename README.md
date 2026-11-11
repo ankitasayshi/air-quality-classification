@@ -184,7 +184,7 @@ The project uses Python libraries for data manipulation, visualization and Machi
 
 **Step 1:** Clone the GitHub repository
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ankitasayshi/air-quality-classification.git
 ```
 
 **Step 2:** Navigate to the project directory
@@ -194,12 +194,12 @@ cd air-quality-classification
 
 **Step 3:** Install the required dependencies
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 **Step 4:** Launch Jupyter Notebook
 ```bash
-jupyter notebook
+python -m notebook "main.ipynb"
 ```
 The project notebook can then be opened in the browser.
 
